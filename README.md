@@ -1,4 +1,4 @@
-# Getting Started Todo App
+# Dockerized Todo App
 
 This project provides a sample todo list application. It demonstrates all of
 the current Docker best practices, ranging from the Compose file, to the
