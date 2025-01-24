@@ -19,12 +19,12 @@ export function AddItemForm({ onNewItem }) {
         };
 
         fetch('/api/items', options)
-            .then((r) => r.json())
-            .then((item) => {
-                onNewItem(item);
-                setSubmitting(false);
-                setNewItem('');
-            });
+        .then((r) => r.json())
+        .then((item) => {
+            onNewItem(item);
+            setSubmitting(false);
+            setNewItem('');
+        });
     };
 
     return (
